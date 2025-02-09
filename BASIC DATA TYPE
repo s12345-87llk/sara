@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int a;
+    long long b;
+    char c;
+    float d;
+    double e;
+
+    // Taking inputs
+    cin >> a >> b >> c >> d >> e;
+
+    // Printing outputs
+    printf("%d\n", a);           // Print integer
+    printf("%lld\n", b);         // Print long long
+    printf("%c\n", c);           // Print character
+    printf("%.2f\n", d);         // Print float with 2 decimal places
+    printf("%.5lf\n", e);        // Print double with 5 decimal places
+
+    return 0;
+}
